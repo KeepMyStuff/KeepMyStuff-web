@@ -1,4 +1,3 @@
 # Keep My Stuff
-![Urist](https://rnhmjoj.github.io/files/Logo.svg)
-## The augmented security system
-
+![Urist](http://keepmystuff.github.io/KeepMyStuff-pitch/files/Logo.svg)
+### The augmented security system's website
