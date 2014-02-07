@@ -1,0 +1,37 @@
+#filo img {
+	width: 20em;
+	margin: 1.5em
+}
+
+#team {
+	width: 40%;
+	text-align: left;
+}
+
+#team p {
+	margin: 1.5em 0 0 2em; 
+}
+
+#team i {
+	padding-right: .5em;
+}
+
+#team img {
+	float: left;
+	width: 5em;
+	margin-right: 1em
+}
+
+.icons{
+	display: block;
+	padding-top: .3em;
+}
+
+.row h2, .row .btn {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.row > div {
+	width: auto
+}
