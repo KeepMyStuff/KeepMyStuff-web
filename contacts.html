@@ -1,69 +1,111 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="KeepMyStuff Website">
-    <meta name="author" content="keepMyStuff Team">
-    <link rel="shortcut icon" href="resources/favicon.ico">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="KeepMyStuff Website">
+		<meta name="author" content="keepMyStuff Team">
+		<link rel="shortcut icon" href="resources/favicon.ico">
+	
+		<title>KeepMyStuff</title>
+		
+		<script src="https://raw.github.com/headjs/headjs/v0.96/dist/head.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			head.js(
+					{jquery: 'http://code.jquery.com/jquery.min.js'},
+					{bootstrap: 'http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'},
+					{prefixfree: 'https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'},
+					{touch: 'script/touch.js'}
+				);
+		</script>
+		
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="https://raw.github.com/FortAwesome/Font-Awesome/master/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="style/cover.css" rel="stylesheet" type="text/css">
+		<link href="style/contacts.css" rel="stylesheet" type="text/css">
+		
+		<!--[if lt IE 9]>
+				<script src="../../assets/js/ie8-responsive-file-warning.js"></script>
+			<![endif]-->
+		<!--[if lt IE 9]>
+				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+				<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
+			<![endif]-->
+	
+		<style id="holderjs-style" type="text/css"></style>
+	</head>
 
-    <title>KeepMyStuff</title>
-    
-    <script src="https://raw.github.com/headjs/headjs/v0.96/dist/head.min.js" type="text/javascript"> </script>
-    <script type="text/javascript">
-    head.js(
-            {jquery: 'http://code.jquery.com/jquery.min.js'},
-            {bootstrap: 'http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'},
-            {prefixfree: 'https://raw.github.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'}
-        );
-    </script>
-    
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="style/cover.css" rel="stylesheet" type="text/css">
-    <link href="style/contacts.css" rel="stylesheet" type="text/css">
-    
-    <!--[if lt IE 9]>
-        <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
-    <![endif]-->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
-    <![endif]-->
-
-    <style id="holderjs-style" type="text/css">
-</style>
-</head>
-
-<body style="">
-    <div class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="cover-container">
-                <div class="masthead clearfix">
-                    <div class="inner">
-                        <h3 class="masthead-brand">KeepMyStuff</h3>
-
-                        <ul class="nav masthead-nav">
-                            <li><a href="#">Home</a></li>
-
-                            <li><a href="http://keepmystuff.github.io/KeepMyStuff-pitch">Features</a></li>
-
-                            <li class="active"><a href="contacts.html">Contacts</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="inner cover"></div>
-
-                <div class="mastfoot">
-                    <div class="inner">
-                        <p><a href="#">KeepMyStuff</a>, the winners of the <a href="https://www.google.it/search?q=Startup+weekend+milan+keepmystuff">StartupWeekend Milan 2014</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+	<body style="">
+		<div class="site-wrapper">
+			<div class="site-wrapper-inner">
+				<div class="cover-container">
+					<div class="masthead clearfix">
+						<div class="inner">
+							<h3 class="masthead-brand">KeepMyStuff</h3>
+	
+							<ul class="nav masthead-nav">
+								<li><a href="index.html">Home</a></li>
+	
+								<li><a href="http://keepmystuff.github.io/KeepMyStuff-pitch">Pitch</a></li>
+	
+								<li><a href="team.html">Team</a></li>
+	
+								<li class="active"><a href="contacts.html">Contacts</a></li>
+							</ul>
+						</div>
+					</div>
+	
+					<div class="inner cover">
+						<div id="contacts" class="col-sm-offset-3 col-sm-6">
+							<h2>Get in Touch</h2>
+	
+							<form class="well" id="touch">
+								<div class="control-group">
+									<div class="controls">
+										<input type="text" class="form-control" placeholder="Name" id="name">
+									</div>
+								</div>
+	
+								<div class="control-group">
+									<div class="controls">
+										<input type="email" class="form-control" placeholder="Email" id="email">
+									</div>
+								</div>
+	
+								<div class="control-group">
+									<div class="controls">
+										<input type="text" class="form-control" placeholder="Subject" id="subject">
+									</div>
+								</div>
+	
+								<div class="control-group">
+									<div class="controls">
+										<textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message">
+	</textarea>
+									</div>
+								</div>
+	
+								<div id="sent" class="alert alert-success">
+									Message sent!
+								</div>
+	
+								<div id="failed" class="alert alert-danger">
+									Oops. Please, try again.
+								</div><button type="submit" class="btn btn-primary pull-right">Send</button>
+							</form>
+						</div>
+	
+						<div class="mastfoot">
+							<div class="inner">
+								<p><a href="#">KeepMyStuff</a>, the winners of the <a href="https://www.google.it/search?q=Startup+weekend+milan+keepmystuff">StartupWeekend Milan 2014</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

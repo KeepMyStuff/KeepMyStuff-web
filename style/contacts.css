@@ -1,0 +1,17 @@
+#touch {
+	padding-bottom: 3.5em;	
+}
+
+#touch div, #touch button {
+	margin-top: .5em;
+	text-shadow: none;
+}
+
+#touch textarea {
+	resize: none;
+}
+
+#touch .alert {
+	display: none;
+}
+

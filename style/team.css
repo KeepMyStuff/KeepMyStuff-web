@@ -1,0 +1,44 @@
+body {
+	overflow:hidden;
+}
+
+#filo img {
+	width:20em;
+	margin:1.5em;
+}
+
+#team {
+	width:40%;
+}
+
+#team .container {
+	text-align:left;
+}
+
+#team p {
+	margin:1.8em 0 0 5em;
+}
+
+#team i {
+	padding-right:.5em;
+}
+
+#team img {
+	float:left;
+	width:5em;
+	margin-right:1em;
+}
+
+.icons {
+	display:block;
+	padding-top:.3em;
+}
+
+.row h2,.row .btn {
+	text-align:center;
+	margin-top:1em;
+}
+
+.row > div {
+	float:left;
+}
